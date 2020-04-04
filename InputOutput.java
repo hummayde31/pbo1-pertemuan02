@@ -14,12 +14,16 @@ public class InputOutput{
   n_tugas = scanner.nextInt();
 
   System.out.print("Nilai kuis : ");
-  n_kuis = input.nextInt();
-  System.out.println("Nilai uts : ");
-  n_uts = input.nextInt();
+  n_kuis = scanner.nextInt();
+
+  System.out.print("Nilai uts : ");
+  n_uts = scanner.nextInt();
+
   System.out.print("Nilai uas : ");
-  n_uas = input.nextInt();
+  n_uas = scanner.nextInt();
+
   n_akhir = (0.15 * n_tugas + 0.20 * n_kuis + 0.30 * n_uts + 0.35 * n_uas);
-  System.out.println(nama+" dengan NIM "+nim+" memiliki nilai akhir "+n_akhir);
+  System.out.print(nama+" dengan NIM "+nim+" memiliki nilai akhir "+n_akhir);
+
  }
 }
