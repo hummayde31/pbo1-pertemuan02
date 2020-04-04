@@ -10,7 +10,7 @@ public class InputOutput{
   nama = scanner.nextLine();
   System.out.println("Hai, "+nama);
 
-  System.out.print("Nilai tugas : ");
+  System.out.print("n-tugas : ");
   n_tugas = scanner.nextInt();
 
   System.out.print("Nilai kuis : ");
