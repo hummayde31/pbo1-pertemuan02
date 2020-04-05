@@ -4,7 +4,7 @@ public class InputOutput{
  public static void main(String [] args){
   Scanner scanner = new Scanner(System.in);
   String nama;
-  double Nilai_tugas , Nilai_kuis , Nilai_uts , Nilai_uas ;
+  double Nilai_tugas , Nilai_kuis , Nilai_uts , Nilai_uas , Nilai_akhir;
   
   System.out.print("Masukkan nama anda: ");
   nama = scanner.nextLine();
@@ -23,7 +23,7 @@ public class InputOutput{
   Nilai_uas = scanner.nextInt();
 
   Nilai_akhir = (0.15 * n_tugas + 0.20 * n_kuis + 0.30 * n_uts + 0.35 * n_uas);
-  System.out.println(nama+" memiliki nilai akhir "+n_akhir);
+  System.out.println(nama+" memiliki nilai akhir "+Nilai_akhir);
 
  }
 }
