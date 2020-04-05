@@ -22,7 +22,7 @@ public class InputOutput{
   System.out.print("Nilai uas : ");
   Nilai_uas = scanner.nextInt();
 
-  Nilai_akhir = (0.15 * n_tugas + 0.20 * n_kuis + 0.30 * n_uts + 0.35 * n_uas);
+  Nilai_akhir = (0.15 * Nilai_tugas + 0.20 * Nilai_kuis + 0.30 * Nilai_uts + 0.35 * n_uas);
   System.out.println(nama+" memiliki nilai akhir "+Nilai_akhir);
 
  }
