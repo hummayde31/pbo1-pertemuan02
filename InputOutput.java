@@ -3,12 +3,14 @@ import java.util.Scanner;
 public class InputOutput{
  public static void main(String [] args){
   Scanner scanner = new Scanner(System.in);
-  String nama;
+  String nama , NPM;
   double Nilai_tugas , Nilai_kuis , Nilai_uts , Nilai_uas , Nilai_akhir;
   
   System.out.print("Masukkan nama anda: ");
   nama = scanner.nextLine();
-  System.out.println("Hai, "+nama);
+
+  System.out.print("Masukan NPM : ");
+  NPM = scanner.nextLine();
 
   System.out.print("Masukkan Nilai tugas : ");
   Nilai_tugas = scanner.nextInt();
@@ -23,7 +25,7 @@ public class InputOutput{
   Nilai_uas = scanner.nextInt();
 
   Nilai_akhir = (0.15 * Nilai_tugas + 0.20 * Nilai_kuis + 0.30 * Nilai_uts + 0.35 * Nilai_uas);
-  System.out.println(nama+" memiliki nilai akhir "+Nilai_akhir);
+  System.out.println(nama+"Dengan NPM" +NPM+" Memiliki nilai akhir "+Nilai_akhir);
 
  }
 }
