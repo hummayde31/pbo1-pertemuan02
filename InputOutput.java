@@ -25,7 +25,7 @@ public class InputOutput{
   Nilai_uas = scanner.nextInt();
 
   Nilai_akhir = (0.15 * Nilai_tugas + 0.20 * Nilai_kuis + 0.30 * Nilai_uts + 0.35 * Nilai_uas);
-  System.out.println(nama+"Dengan NPM" +NPM+" Memiliki nilai akhir "+Nilai_akhir);
+  System.out.println(nama+ " Dengan NPM " +NPM+" Memiliki nilai akhir "+Nilai_akhir);
 
  }
 }
